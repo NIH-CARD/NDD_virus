@@ -20,3 +20,7 @@ Selects viral endpoint/NDD pairs that have data for both viral exposure before N
 **UKB_Virus_FDR**
 
 Recreates the viral endpoints used in FinnGen using ICD10 codes; uses logistic regression to predict the effect of viral exposure on each NDD. Covariates include age at enrollment, genetically determined sex, and Townsend deprivation index. Adds FDR correction.
+
+**Virus_NDD_Figure**
+
+Creates figure showing hazard ratio lags for replicated associations between viral exposures and NDDs. 
