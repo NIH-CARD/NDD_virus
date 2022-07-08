@@ -1,7 +1,7 @@
 # NDD_virus
 Repository for pilot analyses exploring NDD and viral associations in a hypothesis free manner.
 
-FinnGen_Search_Terms
+**FinnGen_Search_Terms**
 
 Creates csv file of FinnGen viral endpoints that have data for six neurodegenerative diseases (AD, ALS, dementia, MS, PD, and vascular dementia)
 
