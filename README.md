@@ -24,3 +24,11 @@ Recreates the viral endpoints used in FinnGen using ICD10 codes; uses logistic r
 **Virus_NDD_Figure**
 
 Creates figure showing hazard ratio lags for replicated associations between viral exposures and NDDs. 
+
+**PRS_UKB_Prep**
+
+Calculates the PRS for activity and diet; do this step before running PRS_UKB_Virus_FDR
+
+**PRS_UKB_Virus_FDR**
+
+Same as UKB_Virus_FDR above except that it also includes the PRS calculated in PRS_UKB_Prep as covariates
