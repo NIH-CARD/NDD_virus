@@ -3,17 +3,13 @@ Repository for pilot analyses exploring NDD and viral associations in a hypothes
 
 **FinnGen_Search_Terms**
 
-Creates csv file of FinnGen viral endpoints that have data for six neurodegenerative diseases (AD, ALS, dementia, MS, PD, and vascular dementia)
+Creates csv file of FinnGen viral endpoints that have data for six neurodegenerative diseases (AD, ALS, dementia, MS, PD, and vascular dementia); do this step before running Finn_Gen_Virus_FDR or Finn_Gen_Virus_ALL_lags
 
 **Finn_Gen_Virus_FDR**
 
-Adds FDR correction to viral exposure before NDD at lag 0
+Adds FDR correction to viral exposure before NDD at lag 0; can also use to get viral exposure at all lags before NDD
 
-**Finn_Gen_Virus_FDR_with_lags**
-
-Adds FDR correction to viral exposure before NDD at all lags
-
-**Finn_Gen_Virus_BOTH_directions**
+**Finn_Gen_Virus_ALL_lags**
 
 Selects viral endpoint/NDD pairs that have data for both viral exposure before NDD and viral exposure after NDD diagnosis; adds FDR correction
 
